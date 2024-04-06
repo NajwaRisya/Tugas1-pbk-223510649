@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: Sen, sans-serif;
+}
+li {
+  margin-bottom: 10px;
+}
+svg {
+  margin: 0 10px;
+  cursor: pointer;
+}
+svg:hover {
+  fill: lightseagreen;
+}
+.fg a[href] {
+  text-decoration: none;
+  color: black;
+}
+.fg a[href]:hover {
+  color: lightseagreen;
+  transition: 0.5s;
+}
+td {
+  position: relative;
+  bottom: 10px;
+  padding-bottom: 10px;
+}
+p {
+  text-indent: 2rem;
+}
+textarea:focus {
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: lightseagreen;
+  border: none;
+  color: white;
+  padding: 10px;
+  box-shadow: 3px 3px 3px lightgray;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 80px;
+}
+body {
+  font-family: Sen, sans-serif;
+  background-color: #EEEEEE;
+  padding: 0;
+  margin: 0;
+}
+main {
+  padding: 50px;
+  overflow: auto;
+}
+.featured-image {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  padding: 10px;
+}
+.flex {
+  display: flex;
+}
+.fg {
+  flex-grow: 1;
+}
+.card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 20px lightgrey;
+  border: 1px solid lightgrey;
+  padding: 40px;
+  margin: 0 0 20px 0;
+}
+article h3 {
+  color: lightseagreen;
+}
+footer {
+  padding: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #3E3D3D;
+}
+input[type=text],
+input[type=number],
+input[type=email],
+textarea {
+   width: 100%;
+   padding: 7px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+input[type="email"]:focus,
+textarea:focus {
+  box-shadow: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 5px lightseagreen;
+  outline: 0 none !important;
+}
